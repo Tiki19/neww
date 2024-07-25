@@ -1,0 +1,153 @@
+/* Estilos para el contenedor de la visión y misión */
+:root {
+    --background-color-cabezal: #F2EBDE; /* Color de fondo del cabezal */
+    --background-color-cuerpo: #f7f2ec; /* Color de fondo del cuerpo */
+    --primary-color: #c78b5b; /* Color principal para los botones */
+    --barra-desplazamiento:#f3cd9f;/*color de barraza de desplazamiento*/
+  }
+  html{
+    background-color: var(--background-color-cabezal);
+  }
+
+/* Estilos para la página */
+body {
+    font-family: 'Open Sans', sans-serif;
+    /* Estilos para la página */
+body {
+    font-family: 'Open Sans', sans-serif;
+
+  }
+  
+  /* Estilos para el contenedor de la visión y misión */
+  .vision-mission-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff; /* Fondo blanco */
+    border: 1px solid #ddd; /* Borde gris claro */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  /* Estilos para la visión */
+  .vision {
+    margin-bottom: 20px;
+  }
+  
+  .vision h2 {
+    font-weight: bold;
+    color: var(--primary-color); /* Verde oscuro */
+    margin-top: 0;
+  }
+  
+  .vision p {
+     font-size: 18px;
+    color: #333; /* Gris oscuro */
+    line-height: 1.5;
+    font-style: italic;
+    text-align: justify;
+  }
+  
+  /* Estilos para la misión */
+  .mission {
+    margin-bottom: 20px;
+  }
+  
+  .mission h2 {
+    font-weight: bold;
+    color: --; /* Azul oscuro */
+    margin-top: 0;
+  }
+  
+  .mission p {
+    font-size: 18px;
+    color: #333; /* Gris oscuro */
+    line-height: 1.5;
+    font-style: italic;
+    text-align: justify;
+  }
+  
+  /* Estilos para los títulos */
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-transform: uppercase; /* Mayúsculas */
+    letter-spacing: 2px; /* Espacio entre letras */
+  }
+  
+  /* Estilos para los párrafos */
+  p {
+    font-size: 18px;
+    color: #666; /* Gris claro */
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  }
+  
+  /* Estilos para el contenedor de la visión y misión */
+  .vision-mission-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff; /* Fondo blanco */
+    border: 1px solid #ddd; /* Borde gris claro */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  /* Estilos para la visión */
+  .vision {
+    margin-bottom: 20px;
+  }
+  
+  .vision h2 {
+    font-weight: bold;
+    color: #008000; /* Verde oscuro */
+    margin-top: 0;
+  }
+  
+  .vision p {
+    font-size: 18px;
+    color: #333; /* Gris oscuro */
+    line-height: 1.5;
+  }
+  
+  /* Estilos para la misión */
+  .mission {
+    margin-bottom: 20px;
+  }
+  
+  .mission h2 {
+    font-weight: bold;
+    color:var(--primary-color); /* Azul oscuro */
+    margin-top: 0;
+  }
+  
+  .mission p {
+    font-size: 18px;
+    color: #333; /* Gris oscuro */
+    line-height: 1.5;
+    font-style: italic;
+  }
+  
+  /* Estilos para los títulos */
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-transform: uppercase; /* Mayúsculas */
+    letter-spacing: 2px; /* Espacio entre letras */
+  }
+  
+  /* Estilos para los párrafos */
+  p {
+    font-size: 18px;
+    color: #666; /* Gris claro */
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  .imagen {
+    display: block; /* Make the image a block element to center it */
+    margin: 20px auto; /* Add some margin to create space between the image and the text */
+    width: 200px; /* Ancho de la imagen */
+    height: 200px; /* Alto de la imagen */
+    border: 1px solid #ddd; /* Borde gris claro */
+    border-radius: 10px; /* Radio de esquina */
+  }

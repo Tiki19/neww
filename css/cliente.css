@@ -1,0 +1,185 @@
+/* Estilos globales */
+
+:root {
+    --background-color-cabezal: #F2EBDE;
+    --background-color-cuerpo: #f7f2ec;
+    --primary-color: #c78b5b;
+    --barra-desplazamiento: #f3cd9f;
+  }
+  
+  html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  body {
+    background-color: #f5f3ef;
+    margin: 0;
+    padding: 0;
+  }
+  
+form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    
+}
+
+.contenedor {
+    position: absolute;
+    top: 0;
+    left: 65%;
+    transform: translateX(-50%);
+    width: 80%; /* adjust the width as needed */
+    text-align: center;
+    padding: 20px; /* adds 20px of padding to the container */
+
+}
+
+.formulario {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contener-formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo {
+    text-align: flex;
+    color:#ecabb5;
+}
+
+.contenedor-text-input {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.registro {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 48%;
+    margin-bottom: 10px;
+}
+
+.registro label {
+    width: 100%;
+    text-align: left;
+    padding-right: 10px;
+}
+
+input[type="text"], input[type="datetime-local"] {
+    width: 100%;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #ecabb5;
+}
+
+.contener-botones {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botones {
+    margin: 0 10px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ecabb5;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #d69eab;
+}
+  
+  .tabla-container {
+    margin-top: 440px;
+    margin-left: 30px;
+    max-width: 90%; /* set the maximum width of the table to 800px */
+  }
+
+  .tabla-scroll {
+    overflow-y: auto;
+    height: 300px; /* set the height of the container to 300px */
+    padding: 10px;
+    margin-left: 10px;
+    border: 1px solid #ddd;
+    width: 100%;
+  }
+
+  .tabla {
+    border: 1px solid #050404;
+    border-collapse: collapse;
+    margin-bottom: 0px;
+  }
+
+  .fila {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center; /* add this to prevent wrapping */
+  }
+
+  .encabezado {
+    background-color: var(--background-color-cuerpo);
+  }
+
+  .fila.encabezado {
+    white-space: nowrap;
+  }
+
+  .columna {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: auto;
+    height: 60px;
+    border: 1px solid #ddd;
+    width: 150px;
+    margin: 0;
+    flex: 1;
+    border-left: 0;
+  }
+
+  .columna-1,
+  .columna-2,
+  .columna-3,
+  .columna-4,
+  .columna-5,
+  .columna-6,
+  .columna-7 {
+    flex-basis: 200px;
+  }
+
+  .contenedor-filas {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fila-contenedor {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2px;
+  }
+
+  .fila-contenedor input {
+    flex: 1;
+    padding: 2px;
+    border: 1px solid #ddd;
+  }
